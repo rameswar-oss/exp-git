@@ -154,7 +154,7 @@ run();
 app.post("/post",function(req,res){
   res.redirect("/")
 })
-app.listen(process.env.port||3000,function(){
+app.listen(process.env.PORT||3000,function(){
   console.log("its running");
 })
 //f5f1828ca1e229e647a90445c59ea603-us11
